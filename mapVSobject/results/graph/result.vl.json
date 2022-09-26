@@ -1,0 +1,33 @@
+{
+	"$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+	"description": "Map Vs Object series",
+	"title": "Map Vs Object series",
+	"width": 1000,
+	"height": 500,
+	"data": {
+		"name": "table",
+		"values": [
+			{ "time": "0.06", "n": 1000, "type": "Map" },
+			{ "time": "11.2", "n": 100000, "type": "Map" },
+			{ "time": "167.4", "n": 1000000, "type": "Map" },
+			{ "time": " 3606.7", "n": 10000000, "type": "Map" },
+
+			{ "time": "0.03", "n": 1000, "type": "object" },
+			{ "time": "3.8", "n": 100000, "type": "object" },
+			{ "time": "45.12", "n": 1000000, "type": "object" },
+			{ "time": "616", "n": 10000000, "type": "object" }
+		]
+	},
+	"mark": {
+		"type": "line",
+		"point": {
+			"filled": false,
+			"fill": "white"
+		}
+	},
+	"encoding": {
+		"x": { "field": "n", "type": "quantitative" },
+		"y": { "field": "time", "type": "quantitative", "title": "time (ms)" },
+		"color": { "field": "type", "type": "nominal" }
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"name": "js-compare-code-performance",
+	"version": "1.0.0",
+	"description": "a repo to test similar Classes, functions to see which one will perform better",
+	"main": "index.JS",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"run": "node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ahmedgaafer/js-compare-code-performance.git"
+	},
+	"type": "module",
+	"author": "AhmedS.Gaafer",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ahmedgaafer/js-compare-code-performance/issues"
+	},
+	"homepage": "https://github.com/ahmedgaafer/js-compare-code-performance#readme",
+	"dependencies": {
+		"vega-lite": "^5.5.0"
+	}
+}
