@@ -2,4 +2,4 @@
 
 ## Insert
 
-![](./graph/insert.png)
+![](./insert/insert.png)

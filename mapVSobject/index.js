@@ -3,7 +3,7 @@ import { mapInsert } from "./mapFunctions/index.js";
 import { objInsert } from "./objectFunctions/index.js";
 
 // Number of operations
-const n = 10_000_000;
+const n = 10_000_00;
 const options = {
 	n,
 	avg: 100,

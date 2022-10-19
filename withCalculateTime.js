@@ -1,10 +1,10 @@
 export function withCalculatePerformance(callBack) {
 	return function (...params) {
-		const start = performance.now();
+		const start = Date.now();
 
 		callBack(...params);
 
-		const end = performance.now();
+		const end = Date.now();
 
 		return end - start;
 	};
